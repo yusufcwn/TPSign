@@ -1,0 +1,11 @@
+name: TPSign
+main: TPSign\Main
+version: 1.0.0
+api: 3.28.0
+author: yusufcwn
+depend: [FormAPI]
+description: Teleport tabelası oluşturma plugini
+permissions:
+  tpsign.create:
+    description: Teleport tabelası oluşturma izni
+    default: op
